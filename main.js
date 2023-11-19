@@ -1,6 +1,6 @@
 alert(`Hai! Sebelum masuk ke laman WEBPRO, Kita akan bermain "Tebak Angka"`);
 
-let x= parseInt(prompt(`Masukkan angka yang anda inginkan`));
+let x= parseInt(prompt(`Masukkan angka yang anda inginkan *(lebih kecil lebih baik)`));
 
 while (!x) {
     x= parseInt(prompt(`Inputan harus berupa angka!`));
@@ -16,8 +16,10 @@ while (jawaban !== gues) {
 
     if (jawaban> gues) {
         jawaban= parseInt(prompt(`Coba lagi dengan angka yang lebih kecil dari ${jawaban}`));
-    } else {
+    } else if (jawaban< gues) {
         jawaban= parseInt(prompt(`Coba lagi dengan angka yang lebih besar dari ${jawaban}`));
+    } else {
+        jawaban= parseInt(prompt(`Inputan harus berupa angka!`));
     }
 };
 
