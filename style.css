@@ -1,0 +1,54 @@
+body {
+    background-color: #c2ded1;
+}
+
+#navbar {
+    background-color: #c2ded1;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.web {
+    border-radius: 32px 0px 0px 32px;
+}
+
+h1 {
+    font-size: 7.5rem;
+    font-weight: 800;
+}
+
+.title {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+
+.titletop {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.point1 {
+    border-radius: 10px;
+    background-color: white;
+    height: 500px;
+}
+
+.ppt {
+    justify-content: center;
+}
+
+.pp {
+    height: 360.33px;
+    width: 275.33px;
+}
+
+.card {
+    background-color: rgb(35, 46, 57);
+}
