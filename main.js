@@ -33,3 +33,6 @@ if (y== 1) {
 
 const mathsin= (Number) => Math.sin(Number);
 console.log(mathsin(90));
+
+const mathcos= (Number) => Math.cos(Number);
+console.log(mathcos(90));
