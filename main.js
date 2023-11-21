@@ -30,3 +30,6 @@ if (y== 1) {
 } else {
     alert(`SELAMAT, Tebakan anda benar setelah ${y} percobaan dan itu sangat PAYAH!!`)
 };
+
+const mathsin= (Number) => Math.sin(Number);
+console.log(mathsin(90));
