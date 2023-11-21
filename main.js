@@ -38,3 +38,5 @@ const mathcos= (Number) => Math.cos(Number);
 console.log(mathcos(90));
 
 let hi= 'hi';
+
+k
